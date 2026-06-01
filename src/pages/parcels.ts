@@ -61,7 +61,7 @@ const PA_R      = 12.0;                                       // Rayon du cercle
 const PA_AIRE   = (3 * Math.sqrt(3) / 4) * (PA_R ** 2);      // ≈ 374.12 – aire inscrite de référence
 const PA_SIZE   = 400;                                        // Taille du canvas (px)
 const PA_VIZ_H  = 320;                                        // Hauteur réservée aux formes (px)
-
+//const PA_FRAMES = 90; //                                        // Durée de l'animation (frames ≈ 3s @30fps)
 
 /** Map canvas → id de la RAF en cours (pour annulation propre) */
 const activePoidsAnims = new Map<HTMLCanvasElement, number>();
